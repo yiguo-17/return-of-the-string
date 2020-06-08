@@ -9,10 +9,10 @@
 
 ### Workflow
 
-* You'll be working in **`main.js`**again! And from now on!
+* You'll be working in **`main.js`**!
 * You'll be creating functions according to the specifications given in the tests. Check your terminal for feedback on which aspect of the problem you have yet to complete, and read the specifications' actual code implementation for extra help; it makes explicit exactly what outputs are expected given the test inputs.
 * You will NOT need to call your own functions, except for testing purposes.
-* But now that we're out of the dark dark realm where global variables slither, we won't need to worry about messing things up by testing, either!
+* But now that we're out of the dark dark realm where global variables slither, we won't need to worry about messing things up by testing, either! Call your own functions as often as you find it helpful, and feel free to leave those tests in there if you find that helpful as well. Testing don't cost a thing.
 
 
 ### Functions to Write:
