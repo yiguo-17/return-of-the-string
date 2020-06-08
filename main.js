@@ -2,6 +2,15 @@
  * YOUR CODE HERE! *
  *******************/
 
+function yell(){}
+
+  function getFirstCharacter(){}
+  function getLastCharacter(){}
+  function getOneCharacter(){}
+  function getTwoCharacters(){}
+  function makeCapitalized(){}
+  function yellLouder(){}
+  function getInitials(){}
 
 
 
@@ -11,46 +20,46 @@
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
 
-if (typeof exclaim === 'undefined') {
-  exclaim = undefined;
+if (typeof yell === 'undefined') {
+  yell = undefined;
 }
 
-if (typeof firstCharacter === 'undefined') {
-  firstCharacter = undefined;
+if (typeof getFirstCharacter === 'undefined') {
+  getFirstCharacter = undefined;
 }
 
-if (typeof lastCharacter === 'undefined') {
-  lastCharacter = undefined;
+if (typeof getLastCharacter === 'undefined') {
+  getLastCharacter = undefined;
 }
 
-if (typeof oneCharacter === 'undefined') {
-  oneCharacter = undefined;
+if (typeof getOneCharacter === 'undefined') {
+  getOneCharacter = undefined;
 }
 
-if (typeof twoCharacters === 'undefined') {
-  twoCharacters = undefined;
+if (typeof getTwoCharacters === 'undefined') {
+  getTwoCharacters = undefined;
 }
 
-if (typeof capitalize === 'undefined') {
-  capitalize = undefined;
+if (typeof makeCapitalized === 'undefined') {
+  makeCapitalized = undefined;
 }
 
-if (typeof yeller === 'undefined') {
-  yeller = undefined;
+if (typeof yellLouder === 'undefined') {
+  yellLouder = undefined;
 }
 
-if (typeof initials === 'undefined') {
-  initials = undefined;
+if (typeof getInitials === 'undefined') {
+  getInitials = undefined;
 }
 
 
 module.exports = {
-  exclaim,
-  firstCharacter,
-  lastCharacter,
-  oneCharacter,
-  twoCharacters,
-  capitalize,
-  yeller,
-  initials,
+  yell,
+  getFirstCharacter,
+  getLastCharacter,
+  getOneCharacter,
+  getTwoCharacters,
+  makeCapitalized,
+  yellLouder,
+  getInitials,
 };
