@@ -2,16 +2,31 @@
  * YOUR CODE HERE! *
  *******************/
 
-function yell(){}
+function yell(Str){
+  return Str + '!';
+}
 
-  function getFirstCharacter(){}
-  function getLastCharacter(){}
-  function getOneCharacter(){}
-  function getTwoCharacters(){}
-  function makeCapitalized(){}
-  function yellLouder(){}
-  function getInitials(){}
-
+  function getFirstCharacter(Str){
+    return Str[0];
+  }
+  function getLastCharacter(Str){
+    return Str[Str.length -1];
+  }
+  function getOneCharacter(Str, Num){
+    return Str[Num];
+  }
+  function getTwoCharacters(Str, Num1, Num2){
+    return Str[Num1] + Str[Num2];
+  }
+  function makeCapitalized(Str){
+    return Str.toUpperCase();
+  }
+  function yellLouder(Str){
+    return Str.toUpperCase() + '!!!';
+  }
+  function getInitials(Str){
+   return Str[0] + '.' + Str[Str.indexOf(' ')+1] +'.';
+  }
 
 
 
